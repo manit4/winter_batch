@@ -1,35 +1,38 @@
-class Car {
-	
-	void steeringWheel() {
-		System.out.println("inside steeringWheel()");
-	}
-}
 
-class Polo extends Car {
-	
-	void abs() {
-		System.out.println("inside abs()");
-	}
-}
+//---------topics covered in this files are- static, multiple classes and a bit of inheritance------------
 
-class Benz extends Car {
-	
-	void climateControl() {
-		System.out.println("inside climateControl()");
-	}
-}
-
-public class Main0211 {
-	
-	public static void main(String[] args) {
-		
-	Polo p = new Polo();   p.abs();   p.steeringWheel();//with the help of inheritance, You can call members(variables as well as
-														//methods) of its own class as well as its parent class...
-	
-	Benz b = new Benz();     b.climateControl();      b.steeringWheel();
-		
-	}	
-}
+//class Car {//This is parent class or base class or super class
+//	
+//	void steeringWheel() {
+//		System.out.println("inside steeringWheel()");
+//	}
+//}
+//
+//class Polo extends Car {//Polo is child class or derived class or sub class
+//	
+//	void abs() {
+//		System.out.println("inside abs()");
+//	}
+//}
+//
+//class Benz extends Car {
+//	
+//	void climateControl() {
+//		System.out.println("inside climateControl()");
+//	}
+//}
+//
+//public class Main0211 {
+//	
+//	public static void main(String[] args) {
+//		
+//	Polo p = new Polo();   p.abs();   p.steeringWheel();//with the help of inheritance, You can call members(variables as well as
+//														//methods) of its own class as well as its parent class...
+//	
+//	Benz b = new Benz();     b.climateControl();      b.steeringWheel();
+//		
+//	}	
+//}
 
 
 
