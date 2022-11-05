@@ -1,40 +1,40 @@
-class Car {
-
-	void steeringWheel() {
-		System.out.println("inside steeringWheel()");
-	}
-
-	void tyres() {
-		System.out.println("inside tyres() of car...");
-	}
-}
-
-class Polo extends Car {
-
-	void abs() {
-
-		System.out.println("inside abs()");
-	}
-}
-
-public class Main0311 {
-
-	public static void main(String[] args) {
-		
-
-		Car car = new Car();   Car cp = new Polo();//You can have object of child in the reference variable of parent class....   Polo pc = new Car();//you can't have object of parent class  in the reference variable of Child class... 
-		
-		Polo p1 = new Polo();   Polo p2 = new Polo();  Polo p3 = new Polo();   Polo p4 = new Polo();
-		
-		Car c1 = new Car();   Car c2 = new Car();     Car c3 = new Car();   Car c4 = new Car();
-		
-		Polo[] polos = {p1, p2, p3, p4};//this array can hold only objects of Polo class 
-		
-		Car[] cars = {c1, c2, c3, c4}; //this array is holding objects of class Car but can hold objects of Polo class also...
-		
-		Car[] c = {p1, c1};//this array is holding objects of both Polo and Car class.... 
-	}
-}
+//class Car {
+//
+//	void steeringWheel() {
+//		System.out.println("inside steeringWheel()");
+//	}
+//
+//	void tyres() {
+//		System.out.println("inside tyres() of car...");
+//	}
+//}
+//
+//class Polo extends Car {
+//
+//	void abs() {
+//
+//		System.out.println("inside abs()");
+//	}
+//}
+//
+//public class Main0311 {
+//
+//	public static void main(String[] args) {
+//		
+//
+//		Car car = new Car();   Car cp = new Polo();//You can have object of child in the reference variable of parent class....   Polo pc = new Car();//you can't have object of parent class  in the reference variable of Child class... 
+//		
+//		Polo p1 = new Polo();   Polo p2 = new Polo();  Polo p3 = new Polo();   Polo p4 = new Polo();
+//		
+//		Car c1 = new Car();   Car c2 = new Car();     Car c3 = new Car();   Car c4 = new Car();
+//		
+//		Polo[] polos = {p1, p2, p3, p4};//this array can hold only objects of Polo class 
+//		
+//		Car[] cars = {c1, c2, c3, c4}; //this array is holding objects of class Car but can hold objects of Polo class also...
+//		
+//		Car[] c = {p1, c1};//this array is holding objects of both Polo and Car class.... 
+//	}
+//}
 
 
 
