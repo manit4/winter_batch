@@ -1,41 +1,41 @@
-//--------------instanceof and casting-------------
-
-class Car {
-	
-	void steeringWheel() {
-		System.out.println("inside steeringWheel() of Car");
-	}
-}
-
-class Polo extends Car {
-	
-	void tyres() {
-		System.out.println("inside tyres() of Polo");
-	}
-}
-
-public class Main0411 {
-
-	public static void main(String[] args) {
-
-		Polo p1 = new Polo();  Polo p2 = new Polo();
-		Car c1 = new Car();    Car c2 = new Car();
-		
-		Car[] cars = {p1, c1, c2, p2};
-		
-		for(Car c : cars) {
-			
-			c.steeringWheel();
-			
-			if(c instanceof Polo) {
-				Polo castedCarToPolo = (Polo)c;
-				castedCarToPolo.tyres();
-			}
-			
-			
-		}
-	}
-}
+////--------------instanceof and casting-------------
+//
+//class Car {
+//	
+//	void steeringWheel() {
+//		System.out.println("inside steeringWheel() of Car");
+//	}
+//}
+//
+//class Polo extends Car {
+//	
+//	void tyres() {
+//		System.out.println("inside tyres() of Polo");
+//	}
+//}
+//
+//public class Main0411 {
+//
+//	public static void main(String[] args) {
+//
+//		Polo p1 = new Polo();  Polo p2 = new Polo();
+//		Car c1 = new Car();    Car c2 = new Car();
+//		
+//		Car[] cars = {p1, c1, c2, p2};
+//		
+//		for(Car c : cars) {
+//			
+//			c.steeringWheel();
+//			
+//			if(c instanceof Polo) {
+//				Polo castedCarToPolo = (Polo)c;
+//				castedCarToPolo.tyres();
+//			}
+//			
+//			
+//		}
+//	}
+//}
 
 
 //class Car {
