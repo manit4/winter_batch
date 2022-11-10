@@ -1,22 +1,22 @@
-interface IBMer {
-	
-	int gravity = 9;//so the variable of an interface is static implicitly. not just static, variables are final also..
-					//variables inside the interfaces are public also...
-	
-	abstract void formalShirt();
-	void formalTrousers();
-}
-
-
-public class Main_0711 {
-
-	public static void main(String[] args) {
-
-		System.out.println(IBMer.gravity);//so the variable of an interface is static implicitly and that is why I could access it with the interface name...
-		
-		IBMer.gravity = 100;//not just variables are static, variables are final also that means you can not update the variable in future..
-	}
-}
+//interface IBMer {
+//	
+//	int gravity = 9;//so the variable of an interface is static implicitly. not just static, variables are final also..
+//					//variables inside the interfaces are public also...
+//	
+//	abstract void formalShirt();
+//	void formalTrousers();
+//}
+//
+//
+//public class Main_0711 {
+//
+//	public static void main(String[] args) {
+//
+//		System.out.println(IBMer.gravity);//so the variable of an interface is static implicitly and that is why I could access it with the interface name...
+//		
+//		IBMer.gravity = 100;//not just variables are static, variables are final also that means you can not update the variable in future..
+//	}
+//}
 
 
 
