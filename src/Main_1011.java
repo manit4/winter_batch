@@ -6,45 +6,45 @@
 	//Answer is--- methods have return-types but constructor does not have return-types....
 
 
-class Human {//This is the example of constructor over-loading since I see many constructor with the same name but different parameters list...
-	
-	int iq = 10;
-	int mascularStrength = 20;
-
-	Human(int iq, int mascularStrength) {
-		
-		this.iq = iq;
-		this.mascularStrength = mascularStrength;
-	}
-	
-	Human() {
-		
-	}
-	
-	Human(int iq) {
-		this.iq = iq;
-	}
-}
-
-public class Main_1011 {
-
-	public static void main(String[] args) {
-
-		Human einstein = new Human(35, 60);
-		Human newton = new Human(43, 10);
-		
-		Human manit = new Human();//in the previous example, this statement was illegal since I did not have no-arg constructor
-									//defined manually expecting no-arg constructor will be given to the Human class automatically...
-		
-		Human h1 = new Human(50);//since Im creating object of Human class with parameterized constructor taking only "iq" which will be 
-							//further set to the "iq" instance variable of Object but the mascularStrength is not passed so
-							//the default values decided by the author of the Human class will be given which is 20 ...
-		
-		System.out.println(h1.iq);//since I am 
-		System.out.println(h1.mascularStrength);
-		
-		}
-}
+//class Human {//This is the example of constructor over-loading since I see many constructor with the same name but different parameters list...
+//	
+//	int iq = 10;
+//	int mascularStrength = 20;
+//
+//	Human(int iq, int mascularStrength) {
+//		
+//		this.iq = iq;
+//		this.mascularStrength = mascularStrength;
+//	}
+//	
+//	Human() {
+//		
+//	}
+//	
+//	Human(int iq) {
+//		this.iq = iq;
+//	}
+//}
+//
+//public class Main_1011 {
+//
+//	public static void main(String[] args) {
+//
+//		Human einstein = new Human(35, 60);
+//		Human newton = new Human(43, 10);
+//		
+//		Human manit = new Human();//in the previous example, this statement was illegal since I did not have no-arg constructor
+//									//defined manually expecting no-arg constructor will be given to the Human class automatically...
+//		
+//		Human h1 = new Human(50);//since Im creating object of Human class with parameterized constructor taking only "iq" which will be 
+//							//further set to the "iq" instance variable of Object but the mascularStrength is not passed so
+//							//the default values decided by the author of the Human class will be given which is 20 ...
+//		
+//		System.out.println(h1.iq);//since I am 
+//		System.out.println(h1.mascularStrength);
+//		
+//		}
+//}
 
 
 
