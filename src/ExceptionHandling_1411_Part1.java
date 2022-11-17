@@ -5,37 +5,37 @@ import java.util.Scanner;
 //crash....
 
 
-public class ExceptionHandling_1411 {
+//public class ExceptionHandling_1411 {
+//
+//	public static void main(String[] args) {
+//
+//		divide();
+//	}
+//	
+//	static void divide() {
+//		
+//		try {
+//
+//			Scanner sc = new Scanner(System.in);
+//			System.out.println("Enter any number for Numerator!!");
+//
+//			int numerator = sc.nextInt();
+//
+//			System.out.println("Enter any number for Denominator!!");
+//
+//			int denominator = sc.nextInt();
+//
+//			int result = numerator/denominator;
+//
+//			System.out.println("The result is  "+result);
+//		}
+//		catch(Exception e) {
+//			System.out.println("Kindly do not give Denominator as zero!!");
+//			divide();
+//		}
+//	}
 
-	public static void main(String[] args) {
-
-		divide();
-	}
-	
-	static void divide() {
-		
-		try {
-
-			Scanner sc = new Scanner(System.in);
-			System.out.println("Enter any number for Numerator!!");
-
-			int numerator = sc.nextInt();
-
-			System.out.println("Enter any number for Denominator!!");
-
-			int denominator = sc.nextInt();
-
-			int result = numerator/denominator;
-
-			System.out.println("The result is  "+result);
-		}
-		catch(Exception e) {
-			System.out.println("Kindly do not give Denominator as zero!!");
-			divide();
-		}
-	}
-
-
+//}
 
 
 //public class ExceptionHandling_1411 {
@@ -63,7 +63,7 @@ public class ExceptionHandling_1411 {
 //			main(null);
 //		}
 //	}
-}
+
 
 
 //public class ExceptionHandling_1411 {
