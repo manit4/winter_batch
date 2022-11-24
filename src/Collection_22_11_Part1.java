@@ -10,19 +10,19 @@ import java.util.List;
 //in the same order in which they were inserted...Not just ArrayList but all the implementation classes of List(I) such as 
 //ArrayList, Vector and linkedList...
 
-public class Collection_22_11_Part1 {
-	
-	public static void main(String[] args) {
-
-		List<int> al = new ArrayList<int>();//I am trying to make collection object as Int generic but found error and the reason is
-												//since Collection says I support collection of objects not primitives such as int, byte
-												//short, boolean, char, float, double, long
-		
-		
-
-		
-	}
-}
+//public class Collection_22_11_Part1 {
+//	
+//	public static void main(String[] args) {
+//
+//		List<int> al = new ArrayList<int>();//I am trying to make collection object as Int generic but found error and the reason is
+//												//since Collection says I support collection of objects not primitives such as int, byte
+//												//short, boolean, char, float, double, long
+//		
+//		
+//
+//		
+//	}
+//}
 
 
 
