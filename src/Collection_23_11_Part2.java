@@ -1,32 +1,35 @@
 import java.util.List;
 import java.util.Vector;
 
-public class Collection_23_11_Part2 {
+//vector is another implementation class of List interface and is legacy/old class. It is thread safe class and if you check the API or methods in 
+	//vector class, you will see all the methods are synchronized and the synchronized methods lead to thread safety and makes program slow...
 
-	public static void main(String[] args) {
-
-		List<Integer> vector = new Vector<Integer>();
-
-		vector.add(4);
-		vector.add(30);
-		vector.add(25);
-		vector.add(12);
-		vector.add(10);
-
-		for(Integer value : vector) {
-			System.out.println(value);
-		}
-		Integer i = 4;
-		
-		vector.remove(i);//here I could successfully removed the element holding value as "4" but not the index 4th element....
-		
-		System.out.println("--------after removing element----------");
-		
-		for(Integer value : vector) {
-			System.out.println(value);
-		}
-	}
-}
+//public class Collection_23_11_Part2 {
+//
+//	public static void main(String[] args) {
+//
+//		List<Integer> vector = new Vector<Integer>();
+//
+//		vector.add(4);
+//		vector.add(30);
+//		vector.add(25);
+//		vector.add(12);
+//		vector.add(10);
+//
+//		for(Integer value : vector) {
+//			System.out.println(value);
+//		}
+//		Integer i = 4;
+//		
+//		vector.remove(i);//here I could successfully removed the element holding value as "4" but not the index 4th element....
+//		
+//		System.out.println("--------after removing element----------");
+//		
+//		for(Integer value : vector) {
+//			System.out.println(value);
+//		}
+//	}
+//}
 
 
 
