@@ -1,40 +1,40 @@
 import java.util.Set;
 import java.util.TreeSet;
 
-class Human implements Comparable<Human>{
-
-	int height = 1;
-	int iq = 20;
-
-	public int compareTo(Human o) {
-		
-		if(iq < o.iq) {
-			return -1;
-		}
-		else {
-			return 1;
-		}	
-	}
-}
-
-public class Main_25_11_part3 {
-
-	public static void main(String[] args) {
-
-		Set<Human> humans = new TreeSet<Human>();
-		
-		Human h1 = new Human();    Human h2 = new Human();    Human h3 = new Human();
-		
-		h1.iq = 10;   h2.iq = 8;   		
-		
-		humans.add(h1);    humans.add(h2);    humans.add(h3);
-		
-		for(Human human : humans) {
-			System.out.println(human.iq+", "+human.height);
-		}
-
-	}
-}
+//class Human implements Comparable<Human>{
+//
+//	int height = 1;
+//	int iq = 20;
+//
+//	public int compareTo(Human o) {
+//		
+//		if(iq < o.iq) {
+//			return -1;
+//		}
+//		else {
+//			return 1;
+//		}	
+//	}
+//}
+//
+//public class Collection_25_11_part3 {
+//
+//	public static void main(String[] args) {
+//
+//		Set<Human> humans = new TreeSet<Human>();
+//		
+//		Human h1 = new Human();    Human h2 = new Human();    Human h3 = new Human();
+//		
+//		h1.iq = 10;   h2.iq = 8;   		
+//		
+//		humans.add(h1);    humans.add(h2);    humans.add(h3);
+//		
+//		for(Human human : humans) {
+//			System.out.println(human.iq+", "+human.height);
+//		}
+//
+//	}
+//}
 
 
 
