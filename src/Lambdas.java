@@ -7,8 +7,6 @@ interface Arithmatic {
 }
 
 
-
-
 public class Lambdas {
 	
 	public static void main(String[] args) {
@@ -30,8 +28,7 @@ public class Lambdas {
 		int[] array = {34, 56, 43, 13, 32};
 		
 		arithmatic.arrayIterate(array);
-		
-		
+			
 	}
 }
 
