@@ -19,8 +19,6 @@ public class Lambdas_06_12_Part2 {//This is the example of Supplier functional i
 		Supplier<String> supplier = () -> "Hi";
 		
 		System.out.println(supplier.get());
-		
-		
 	}
 }
 
